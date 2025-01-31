@@ -1,0 +1,99 @@
+/* Importar fuente */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ---------- ESTILOS GENERALES ---------- */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ff9800;
+}
+
+nav a:hover {
+    background-color: #e68900;
+}
+
+/* ---------- SECCIÓN DE ACTIVOS ---------- */
+.activos-container {
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.activos-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.activos-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.activos-table th,
+.activos-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.activos-table th {
+    background-color: #ff9800;
+    color: white;
+    font-weight: bold;
+}
+
+.activos-table tr:last-child td {
+    border-bottom: none;
+}
+
+.activos-table .up {
+    color: green;
+    font-weight: bold;
+}
+
+.activos-table .down {
+    color: red;
+    font-weight: bold;
+}
+
+/* ---------- GRÁFICOS ---------- */
+.chart-container {
+    margin: 40px auto;
+    max-width: 700px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    width: 100% !important;
+    height: 400px !important;
+}
